@@ -1,0 +1,2 @@
+# sql-exercises
+SQL problems

@@ -1,0 +1,9 @@
+# [SELECT] 아픈 동물 찾기 - MySQL
+
+https://programmers.co.kr/learn/courses/30/lessons/59036
+
+```sql
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE INTAKE_CONDITION = 'Sick'
+```

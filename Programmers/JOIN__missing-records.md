@@ -1,0 +1,12 @@
+# [JOIN] 없어진 기록 찾기 - MySQL
+
+https://programmers.co.kr/learn/courses/30/lessons/59042
+
+```sql
+SELECT A.ANIMAL_ID, A.NAME
+FROM ANIMAL_OUTS AS A
+LEFT JOIN ANIMAL_INS AS B
+ON A.ANIMAL_ID = B.ANIMAL_ID
+WHERE B.ANIMAL_ID IS NULL
+ORDER BY ANIMAL_ID
+```
